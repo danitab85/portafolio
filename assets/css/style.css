@@ -38,10 +38,22 @@ li.nav-item:hover {
 li.nav-item:hover {
     border-bottom: 2px solid black;
 }
+
 li.nav-item.active {
     margin: 4px;
     border-bottom: 2px solid peru;
 }
+
+#jumbo .jumbotron {
+    background-image: url("../img/danijumbotron.png");    
+    width: 100%;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
 
 /**
 CSS SMALL
@@ -69,5 +81,13 @@ CSS SMALL
 
     .navbar-toggler {
         margin-top: 25px;
+    }
+    #jumbo .jumbotron {
+        background-image: url("../img/danijumbos.png");    
+        width: 100%;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
     }
 }
