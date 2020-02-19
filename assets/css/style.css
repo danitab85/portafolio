@@ -45,9 +45,10 @@ li.nav-item.active {
 }
 
 #jumbo .jumbotron {
-    background-image: url("../img/danijumbotron.png");    
+    background-image: url("../img/jumbotron_daniela.png");    
     width: 100%;
-    margin-top: 100px;
+    height: 330px;
+    margin-top: 170px;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -83,11 +84,13 @@ CSS SMALL
         margin-top: 25px;
     }
     #jumbo .jumbotron {
-        background-image: url("../img/danijumbos.png");    
+        background-image: url("../img/jumbotronsmall.png");    
         width: 100%;
         margin-top: 100px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
     }
+
+    
 }
