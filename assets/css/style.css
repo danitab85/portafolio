@@ -8,7 +8,7 @@ body {
 
 header .navbar{
     background-color: white;
-    
+    font-family: 'Maven Pro', sans-serif;
 }
 
 
@@ -41,16 +41,38 @@ li.nav-item:hover {
 
 li.nav-item.active {
     margin: 4px;
-    border-bottom: 2px solid peru;
+    border-bottom: 2px solid #F78870;
 }
 
 #jumbo .jumbotron {
-    background-image: url("../img/danijumbotron.png");    
+    background-image: url("../img/jumbotron_daniela.png");    
     width: 100%;
-    margin-top: 100px;
+    height: 400px;
+    margin-top: 170px;
     background-repeat: no-repeat;
     background-size: cover;
-   
+}
+
+#carrusel {
+    margin-top: 50px;
+}
+
+#carrusel h2{
+    font-weight: 700;
+    color: rgb(45, 59, 59);
+    margin: 40px;
+}
+#carrusel .indicadores {
+    position: relative;
+    bottom: 30px;     
+}
+
+#carrusel .indicadores li {
+    margin-top: 30px;
+    background-color:#5c5e5f;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
 }
 
 
@@ -83,11 +105,32 @@ CSS SMALL
         margin-top: 25px;
     }
     #jumbo .jumbotron {
-        background-image: url("../img/danijumbos.png");    
+        background-image: url("../img/jumbotronsmall.png");    
         width: 100%;
         margin-top: 100px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
     }
+
+    
+}
+
+@media (min-width: 767px){
+
+
+    #sobre-mi h2{
+    font-weight: 700;
+    color: rgb(45, 59, 59);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    }
+
+     #sobre-mi p {
+         text-align: justify;
+     }
+    #sobre-mi p span {
+        font-weight: 700;
+    }
+
 }
