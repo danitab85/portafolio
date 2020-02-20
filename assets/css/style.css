@@ -44,6 +44,14 @@ li.nav-item.active {
     border-bottom: 2px solid #F78870;
 }
 
+hr {
+    border: 2px dashed;
+    height: 0px;
+    width: 80%;
+    color: darkgray;
+
+}
+
 #jumbo .jumbotron {
     background-image: url("../img/jumbotron_daniela.png");    
     width: 100%;
@@ -118,19 +126,34 @@ CSS SMALL
 
 @media (min-width: 767px){
 
-
-    #sobre-mi h2{
-    font-weight: 700;
-    color: rgb(45, 59, 59);
-    margin-top: 100px;
-    margin-bottom: 50px;
+    #sobre-mi{
+        background-color: rgb(245, 243, 240);
+        padding-bottom: 20px;
+        margin-top: 50px;
     }
 
-     #sobre-mi p {
-         text-align: justify;
-     }
+    #sobre-mi img{
+width: 100%;
+    }
+
+    #sobre-mi h2{
+        font-weight: 700;
+        color: rgb(148, 97, 207);
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+       
+    }
+
+    #sobre-mi p {
+        margin-top: 25px;
+        text-align: justify;
+        color: rgb(45, 59, 59);
+    }
+
     #sobre-mi p span {
         font-weight: 700;
+        color: rgb(94, 99, 99);
     }
 
 }
