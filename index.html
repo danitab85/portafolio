@@ -29,10 +29,11 @@
                 <div class="collapse navbar-collapse navbar-ul">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+                            <a class="nav-link sobre-mi-link" href="#sobre-mi">Sobre mí <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experiencias</a>
+                            <a class="nav-link" href="#experiencia">Experiencias</a>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +43,7 @@
                 <div class="collapse navbar-collapse navbar-ul">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajos</a>
+                            <a class="nav-link" href="#carrusel">Trabajos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contactos</a>
@@ -50,9 +51,13 @@
 
                     </ul>
                 </div>
+
             </nav>
+
         </header>
     </div>
+
+
 
     <section id="jumbo">
         <div class="jumbotron">
@@ -61,26 +66,83 @@
         <hr>
     </section>
 
-    <div class="container">
-        <section id="sobre-mi" class="mt-5 d-none d-md-block">
-            <div class="container">
-                <h2 class="text-center">SOBRE MÍ</h2>
-                <p>Soy periodista, amante del emprendimiento y la innovación y desde hace unos pocos meses descubrí una
-                    nueva pasión: <span> La Programación!!!</span></p>
-                <p>Nunca antes tuve contacto con los códigos, de casualidad y por mi carrera sabía lo que eran las RRSS.
-                    Pero un día: "SERENDIPITY". Pensando en una de mis ideas de emprendimiento, se me ocurrió una app y
-                    desde ahí comencé a investigar acerca de ellas. Llegué a mi primer curso: Ruby on Rails, donde
-                    aprendí a
-                    realizar aplicaciones web, pero era un total desastre en el front, así que actualmente estoy en el
-                    segundo curso: Front-end, donde comienzo a ver en el resultado de mis códigos, mejores diseños. Mi
-                    meta:
-                    Aprender dos lenguajes al año. Por ahora, échale un vistazo a mi experiencia y mis trabajos
-                    académicos.
-                </p>
-            </div>
-        </section>
 
-        <section id="carrusel" class="mt-40 my-5">
+    <section id="sobre-mi" class="mt-5 d-none d-md-block">
+        <div class="container">
+            <h2 class="text-center">SOBRE MÍ</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 container-foto">
+                    <img id="foto" src="../portafolio/assets/img/dani-sobremi.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="parrafo">
+                        <p>Soy periodista, amante del emprendimiento y la innovación y desde hace unos
+                            pocos
+                            meses
+                            descubrí una
+                            nueva pasión: <span> La Programación!!!</span></p>
+                        <p>Nunca antes tuve contacto con los códigos, de casualidad y por mi carrera, sabía lo
+                            que eran
+                            las RRSS.
+                            Pero un día: "SERENDIPITY". Pensando en una de mis ideas de emprendimiento, se me ocurrió
+                            una app y
+                            desde ahí comencé a investigar acerca de ellas. Llegué a mi primer curso: Ruby on Rails,
+                            donde
+                            aprendí a
+                            realizar aplicaciones web, pero era un total desastre en el diseño, así que actualmente
+                            estoy
+                            en el
+                            segundo curso: Front-end, donde comienzo a ver en el resultado de mis códigos, mejores
+                            diseños.</p>
+                        <p><span>Mi
+                                meta:</span>
+                            Aprender dos lenguajes al año.
+                        </p>
+                        <p><span> Por ahora, échale un vistazo a mi experiencia y mis trabajos
+                                académicos.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <div class="container">
+            <h2 class="text-center">EXPERIENCIAS</h2>
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Warning card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Info card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <section id="carrusel">
             <div class="container">
                 <h2 class="text-center">TRABAJOS</h2>
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -158,7 +220,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="assets/img/slider-7.png" class="d-block w-100" alt="pizza">
+                                    <img src="#" class="d-block w-100" alt="pizza">
                                 </div>
 
                             </div>
@@ -175,15 +237,23 @@
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <footer>
+
+        <div class="logo text-center">
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
