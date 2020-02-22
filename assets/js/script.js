@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-
-
     $(document).scroll(function () {
         var component = $("#sobre-mi").offset().top;
         var altura = $(document).scrollTop();
@@ -19,6 +16,8 @@ $(document).ready(function () {
     $(".sobre-mi-link").click(function () {
         $(".parrafo").slideDown();
     });
+
+  
 });
 
     // $('.sobre-mi-link').click(function (event) {
