@@ -3,7 +3,7 @@ CSS MD y LG
 */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;    
 }
 
 header .navbar{
@@ -102,6 +102,16 @@ hr {
     border-radius: 100%;
 }
 
+.redes {
+    height: 200px;
+}
+
+.redes {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
 
 
 
@@ -152,8 +162,8 @@ CSS SMALL
     }
 
     #formulario {
-      width: 100%
-      height: 100px
+      width: 100%;
+      height: 100px;
     }
 
 }
