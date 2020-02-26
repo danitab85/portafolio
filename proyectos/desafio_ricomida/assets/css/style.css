@@ -1,0 +1,252 @@
+
+/**
+CSS NORMAL
+*/
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+header .navbar .logo h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+#principal img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#principal h2 {
+    margin-top: 4rem;
+    font-weight: 700;
+    text-align: left;
+    font-size: 40px;
+}
+
+#principal hr {
+    border-top: 2px solid #373A3C;
+}
+
+#principal h5 {
+font-weight: 700;
+}
+
+hr.separador-sm {
+    display: none;
+}
+
+#cuerpo ul.lista {
+    list-style-type: none;
+    display: inline;
+}
+
+#cards hr {
+        border-top: 2px solid #373A3C;
+}
+
+#cards .card h5 {
+    font-weight: 700;
+}
+
+footer  {
+    background-color: #373A3C;
+    height: 127px;
+}
+
+footer  h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    padding-top: 41px;
+}
+
+
+/**
+CSS SMALL
+*/
+
+@media (max-width: 576px) {
+    #principal h2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    #principal h5 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    
+    #principal hr.separador-sm {
+        display: block;
+       
+    }
+
+    #principal img {
+        margin-top: 0px;
+    }
+
+    #principal button {         
+        margin-top: 19px;
+        border-color:#DDDDDD;
+        color: #373A3C;
+        font-size: 13px;       
+    }    
+
+    #principal .boton1 {
+        float: left;
+    }
+
+    #principal .boton2 {
+        float: right;
+    }
+
+    #cuerpo hr.separador-md {
+        display: none;
+    }
+
+    #cuerpo p.titulo {
+        font-weight: 700;
+    }
+ 
+    
+    #cuerpo {
+        line-height : 30px;
+    }
+
+    #cards h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    #newsletter {
+        height: 448px;
+        margin-top: 30px;
+    }
+
+    #newsletter .col {
+        margin-top: 95px;
+    }
+
+    #newsletter h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #newsletter p {
+        font-size: 20px;
+    }
+
+    #newsletter span {
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+    }
+
+    #newsletter .btn-empezar {
+        width: 100%;       
+    }
+
+    
+
+}
+
+/**
+MEDIA MD Y LG
+*/
+@media (min-width: 768px) {
+    #principal h2 {
+        width: 60%;
+    }
+
+    #principal button { 
+        margin-right: 20px;
+        margin-top: 20px;
+        color: #373A3C;
+    }
+
+    #principal button.btn.btn-outline-secondary:hover {
+        background-color: white ;
+    }
+
+    .tooltip .tooltip-inner {
+        font-size: 16px;
+        max-width: none;
+    }
+    
+    #carrusel .indicadores {
+        position: relative;
+        bottom: 30px;     
+    }
+
+    #carrusel .indicadores li {
+        margin-top: 30px;
+        background-color:#5c5e5f;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    #cuerpo .separador-md {
+        display: block;
+        border-top: 2px solid #373A3C;
+    }
+
+    #cuerpo {
+        font-size: 20px;
+    }
+
+    #cuerpo p.titulo {
+        text-decoration: underline;
+        font-weight: 700;
+        padding-top: 30px;
+
+    }
+
+    #cards{
+        margin-bottom: 80px;
+    }
+
+    #cards h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    #newsletter {
+        height: 531px;
+    }
+
+    #newsletter .col {
+        margin-top: 150px;
+    }
+
+    #newsletter h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    #newsletter p {
+        font-size: 30px;
+    }
+
+    #newsletter span {
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+
+    #newsletter .btn-empezar {
+        width: 22%;       
+    }
+    
+}
